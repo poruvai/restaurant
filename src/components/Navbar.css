@@ -1,0 +1,88 @@
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 5px;
+background-color: green;
+color: bisque;
+}
+.navbar-brand{
+font-size: 20px;
+font-weight: bold;
+
+}
+.navbar-nav{
+
+   display: flex;
+   justify-content: flex-start;
+}
+.nav-item{
+    margin: 0 10px;
+    list-style: none;
+}
+.nav-link{
+color: bisque;
+text-decoration: none;
+font-size: 15px;
+font-weight: bold;
+transition: color 0.2s;
+}
+.nav-link:hover{
+color: red;
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+  
+  }
+  .image-grid1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .image-card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 150px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); 
+
+    width: 300px;
+  }
+  .image-card1:hover{
+ 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2); 
+ 
+  }
+
+  .image-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+
+  }
+
+  .image-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+
+  }
+
+button{
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: backgroud-color 0.3s case-in-out ;
+    
+
+  }
